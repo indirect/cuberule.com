@@ -354,21 +354,21 @@
       ],
       "accessibility" : [
         {
-          "text" : "⑤ Quiche",
-          "targetRectangle" : {
-            "y" : 46.896842956542969,
-            "x" : 699.71199999999999,
-            "width" : 520.57600000000002,
-            "height" : 132.751220703125
-          }
-        },
-        {
           "text" : "pasted-image.pdf",
           "targetRectangle" : {
             "y" : 280,
             "x" : 610,
             "width" : 700,
             "height" : 694.73681640625
+          }
+        },
+        {
+          "text" : "⑤ Quiche",
+          "targetRectangle" : {
+            "y" : 46.896842956542969,
+            "x" : 699.71199999999999,
+            "width" : 520.57600000000002,
+            "height" : 132.751220703125
           }
         }
       ],

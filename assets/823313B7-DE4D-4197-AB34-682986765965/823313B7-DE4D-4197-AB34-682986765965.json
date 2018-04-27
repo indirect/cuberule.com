@@ -410,15 +410,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "pasted-image.png",
-          "targetRectangle" : {
-            "y" : 660.31810760498047,
-            "x" : 218,
-            "width" : 1484,
-            "height" : 404.06642095810457
-          }
-        },
-        {
           "text" : "first, hot dogs",
           "targetRectangle" : {
             "y" : 52,
@@ -434,6 +425,15 @@
             "x" : 218,
             "width" : 1484,
             "height" : 633.44170667202707
+          }
+        },
+        {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 660.31810760498047,
+            "x" : 218,
+            "width" : 1484,
+            "height" : 404.06642095810457
           }
         }
       ],

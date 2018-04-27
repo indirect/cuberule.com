@@ -354,21 +354,21 @@
       ],
       "accessibility" : [
         {
-          "text" : "The Cube Rule",
-          "targetRectangle" : {
-            "y" : 296,
-            "x" : 254.44050000000004,
-            "width" : 1411.1189999999997,
-            "height" : 246.99555969238281
-          }
-        },
-        {
           "text" : "of Food Identification",
           "targetRectangle" : {
             "y" : 561,
             "x" : 248.85000000000002,
             "width" : 1422.3000000000002,
             "height" : 174.80001831054688
+          }
+        },
+        {
+          "text" : "The Cube Rule",
+          "targetRectangle" : {
+            "y" : 296,
+            "x" : 254.44050000000004,
+            "width" : 1411.1189999999997,
+            "height" : 246.99555969238281
           }
         }
       ],

@@ -112,7 +112,7 @@
       "width" : 575,
       "height" : 111
     },
-    "83FB56F7003F22088709B467A4F3D40A" : {
+    "C25C25FF361FB24FC35F6B120D2F252D" : {
       "type" : "texture",
       "index" : 0,
       "assetRequest" : {
@@ -466,21 +466,12 @@
       ],
       "accessibility" : [
         {
-          "text" : "pasted-image.tiff",
+          "text" : "pasted-image.pdf",
           "targetRectangle" : {
-            "y" : 443.68759155273438,
-            "x" : 1435.91650390625,
-            "width" : 336.15460205078125,
-            "height" : 333.35330200195312
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 508.95075988769531,
-            "x" : 69.938301086426065,
-            "width" : 519.09375,
-            "height" : 244.81301069259644
+            "y" : 31.15789794921875,
+            "x" : 1206.068603515625,
+            "width" : 175,
+            "height" : 173.6842041015625
           }
         },
         {
@@ -493,6 +484,15 @@
           }
         },
         {
+          "text" : "⑥ Calzone",
+          "targetRectangle" : {
+            "y" : 46.896842956542969,
+            "x" : 591.70714770507811,
+            "width" : 576.57600000000002,
+            "height" : 132.751220703125
+          }
+        },
+        {
           "text" : "burrito",
           "targetRectangle" : {
             "y" : 804.74932861328125,
@@ -502,12 +502,12 @@
           }
         },
         {
-          "text" : "pasted-image.pdf",
+          "text" : "pasted-image.tiff",
           "targetRectangle" : {
-            "y" : 31.15789794921875,
-            "x" : 1206.068603515625,
-            "width" : 175,
-            "height" : 173.6842041015625
+            "y" : 443.68759155273438,
+            "x" : 1435.91650390625,
+            "width" : 336.15460205078125,
+            "height" : 333.35330200195312
           }
         },
         {
@@ -520,15 +520,6 @@
           }
         },
         {
-          "text" : "⑥ Calzone",
-          "targetRectangle" : {
-            "y" : 46.896842956542969,
-            "x" : 591.70714770507811,
-            "width" : 576.57600000000002,
-            "height" : 132.751220703125
-          }
-        },
-        {
           "text" : "corn dog",
           "targetRectangle" : {
             "y" : 804.74932861328125,
@@ -538,20 +529,29 @@
           }
         },
         {
-          "text" : "popular examples",
-          "targetRectangle" : {
-            "y" : 208.55206298828125,
-            "x" : 682.0385,
-            "width" : 555.92299999999989,
-            "height" : 90.867568969726562
-          }
-        },
-        {
           "text" : "pie",
           "targetRectangle" : {
             "y" : 804.74932861328125,
             "x" : 1557.8973049316405,
             "width" : 92.193000000000211,
+            "height" : 90.867568969726562
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 508.95075988769531,
+            "x" : 69.938301086426065,
+            "width" : 519.09375,
+            "height" : 244.81301069259644
+          }
+        },
+        {
+          "text" : "popular examples",
+          "targetRectangle" : {
+            "y" : 208.55206298828125,
+            "x" : 682.0385,
+            "width" : 555.92299999999989,
             "height" : 90.867568969726562
           }
         }
@@ -787,7 +787,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "83FB56F7003F22088709B467A4F3D40A"
+                    "texture" : "C25C25FF361FB24FC35F6B120D2F252D"
                   }
                 ]
               }
