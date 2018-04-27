@@ -56,6 +56,20 @@
       "width" : 506,
       "height" : 75
     },
+    "121F3FFE196EF13C2B7E8A61AC358666" : {
+      "type" : "texture",
+      "index" : 8,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/2026AE78-3148-46C8-8A71-7098B6331CDA.pdf"
+      },
+      "width" : 551,
+      "height" : 367
+    },
     "4DE3B3B71F445BCA60C937C9CE7469A5" : {
       "type" : "texture",
       "index" : 11,
@@ -111,20 +125,6 @@
       },
       "width" : 178,
       "height" : 177
-    },
-    "8861A27C7C76B0E5395DE9F16CFFF558" : {
-      "type" : "texture",
-      "index" : 8,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/2026AE78-3148-46C8-8A71-7098B6331CDA.pdf"
-      },
-      "width" : 551,
-      "height" : 367
     },
     "C25C25FF361FB24FC35F6B120D2F252D" : {
       "type" : "texture",
@@ -452,15 +452,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "④ Sushi",
-          "targetRectangle" : {
-            "y" : 46.896842956542969,
-            "x" : 666.23976855468754,
-            "width" : 437.69599999999991,
-            "height" : 132.751220703125
-          }
-        },
-        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 416.18338012695312,
@@ -470,30 +461,12 @@
           }
         },
         {
-          "text" : "popular examples",
+          "text" : "④ Sushi",
           "targetRectangle" : {
-            "y" : 200.69802856445312,
-            "x" : 682.0385,
-            "width" : 555.92299999999989,
-            "height" : 90.867568969726562
-          }
-        },
-        {
-          "text" : "pasted-image.png",
-          "targetRectangle" : {
-            "y" : 416.18338012695312,
-            "x" : 1303.002685546875,
-            "width" : 548.06640625,
-            "height" : 364.00747680664062
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 415.89096069335938,
-            "x" : 717.58489990234375,
-            "width" : 484.83023071289062,
-            "height" : 364.59234619140625
+            "y" : 46.896842956542969,
+            "x" : 666.23976855468754,
+            "width" : 437.69599999999991,
+            "height" : 132.751220703125
           }
         },
         {
@@ -506,12 +479,12 @@
           }
         },
         {
-          "text" : "falafel wrap",
+          "text" : "pasted-image.tiff",
           "targetRectangle" : {
-            "y" : 804.74932861328125,
-            "x" : 126.9169812297821,
-            "width" : 345.23000000000002,
-            "height" : 90.867568969726562
+            "y" : 415.89096069335938,
+            "x" : 717.58489990234375,
+            "width" : 484.83023071289062,
+            "height" : 364.59234619140625
           }
         },
         {
@@ -529,6 +502,33 @@
             "y" : 804.74932861328125,
             "x" : 706.13353051757815,
             "width" : 507.73300000000006,
+            "height" : 90.867568969726562
+          }
+        },
+        {
+          "text" : "falafel wrap",
+          "targetRectangle" : {
+            "y" : 804.74932861328125,
+            "x" : 126.9169812297821,
+            "width" : 345.23000000000002,
+            "height" : 90.867568969726562
+          }
+        },
+        {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 416.18338012695312,
+            "x" : 1303.002685546875,
+            "width" : 548.06640625,
+            "height" : 364.00747680664062
+          }
+        },
+        {
+          "text" : "popular examples",
+          "targetRectangle" : {
+            "y" : 200.69802856445312,
+            "x" : 682.0385,
+            "width" : 555.92299999999989,
             "height" : 90.867568969726562
           }
         }
@@ -2236,7 +2236,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "8861A27C7C76B0E5395DE9F16CFFF558"
+                    "texture" : "121F3FFE196EF13C2B7E8A61AC358666"
                   }
                 ]
               }

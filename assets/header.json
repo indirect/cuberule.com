@@ -1,7 +1,7 @@
 {
   "autoplayTransitionDelay" : 5,
   "author" : "",
-  "timestamp" : "2018-2-26 18:4:9",
+  "timestamp" : "2018-33-26 18:4:3",
   "loopSlideshow" : 0,
   "filename" : "2018-04-20 The Cube Rule small",
   "autoplayBuildDelay" : 2,
@@ -21,6 +21,7 @@
     "CB1D0B55-39F2-4BAA-8FEE-4D23A8150C2C",
     "EB746C43-723E-46F7-811F-71ED14E588E6",
     "FC51E7E6-2BD1-46B2-9361-59F103C236C6",
+    "63EF05B8-D282-4309-A865-8B26505F3887",
     "A96316D6-178A-4B70-A144-9427CA05C067",
     "C9FD3AFC-CEDD-4A15-A59E-0A9010E822F6",
     "D4F92B5C-3965-4BE4-9299-AB4C7EF57339",
@@ -41,6 +42,7 @@
     "CFF9B921-FAB1-4AB7-BB05-8F82BBEE67B6",
     "4D79D6B2-A1AE-4D49-826B-3A282AB60AB4",
     "38A475D5-DC04-4684-8AAA-0602429C8CDB",
+    "FE4AE52F-C851-47F2-9140-832D57D6FDA8",
     "DAFF4F64-BC84-4577-B882-4DB7E63659CD",
     "76AC0DDF-F57A-4E0B-B0DC-706289A2B10E",
     "D6F6CAA1-4AC6-480B-9226-D77D83FE8117",
@@ -53,7 +55,7 @@
   },
   "slideWidth" : 1920,
   "slideHeight" : 1080,
-  "slideCount" : 36,
+  "slideCount" : 38,
   "majorVersion" : 1,
   "minorVersion" : 2,
   "fonts" : [

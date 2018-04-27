@@ -14,21 +14,7 @@
       "width" : 1920,
       "height" : 1080
     },
-    "D5FF260111B3D1BDA753F5C6DD6992E7" : {
-      "type" : "texture",
-      "index" : 3,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/4D79D6B2-A1AE-4D49-826B-3A282AB60AB4.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
-    },
-    "A263B98387CE9A38EEC9DBBEBAE78B7A" : {
+    "D7700108707FCC4CD09F0C12FEE0F2DD" : {
       "type" : "texture",
       "index" : 1,
       "assetRequest" : {
@@ -41,6 +27,20 @@
       },
       "width" : 702,
       "height" : 697
+    },
+    "A263B98387CE9A38EEC9DBBEBAE78B7A" : {
+      "type" : "texture",
+      "index" : 0,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/4D79D6B2-A1AE-4D49-826B-3A282AB60AB4.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
     },
     "BA14955DF95130E074786615D297D244" : {
       "type" : "texture",
@@ -56,9 +56,9 @@
       "width" : 436,
       "height" : 111
     },
-    "C25C25FF361FB24FC35F6B120D2F252D" : {
+    "111991F5CCC6653A8D42B4A85F5D35CA" : {
       "type" : "texture",
-      "index" : 0,
+      "index" : 3,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -252,7 +252,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "D5FF260111B3D1BDA753F5C6DD6992E7"
+                    "texture" : "111991F5CCC6653A8D42B4A85F5D35CA"
                   },
                   {
                     "animations" : [
@@ -354,21 +354,21 @@
       ],
       "accessibility" : [
         {
-          "text" : "pasted-image.pdf",
-          "targetRectangle" : {
-            "y" : 280,
-            "x" : 610,
-            "width" : 700,
-            "height" : 694.73681640625
-          }
-        },
-        {
           "text" : "⓪ Salad",
           "targetRectangle" : {
             "y" : 46.896842956542969,
             "x" : 739.13599999999997,
             "width" : 441.72800000000007,
             "height" : 132.751220703125
+          }
+        },
+        {
+          "text" : "pasted-image.pdf",
+          "targetRectangle" : {
+            "y" : 280,
+            "x" : 610,
+            "width" : 700,
+            "height" : 694.73681640625
           }
         }
       ],
@@ -603,7 +603,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "C25C25FF361FB24FC35F6B120D2F252D"
+                    "texture" : "A263B98387CE9A38EEC9DBBEBAE78B7A"
                   }
                 ]
               }
@@ -784,7 +784,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "A263B98387CE9A38EEC9DBBEBAE78B7A"
+                    "texture" : "D7700108707FCC4CD09F0C12FEE0F2DD"
                   }
                 ]
               }

@@ -356,6 +356,15 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "Rice",
+            "targetRectangle" : {
+              "y" : 102.26384735107422,
+              "x" : 816.00999999999999,
+              "width" : 287.98000000000002,
+              "height" : 166.93902587890625
+            }
+          },
+          {
             "text" : "You are free to interpret the",
             "targetRectangle" : {
               "y" : 484.73809814453125,
@@ -371,15 +380,6 @@ local_slide( {
               "x" : 257.50463999999988,
               "width" : 1404.9907200000002,
               "height" : 112.27102539062503
-            }
-          },
-          {
-            "text" : "Rice",
-            "targetRectangle" : {
-              "y" : 102.26384735107422,
-              "x" : 816.00999999999999,
-              "width" : 287.98000000000002,
-              "height" : 166.93902587890625
             }
           }
         ],

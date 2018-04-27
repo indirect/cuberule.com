@@ -2,6 +2,20 @@ local_slide( {
   "name" : "FAA08022-B38D-4CC0-A790-BADB53A50C5C",
   "json" : {
     "assets" : {
+      "3D34701509503107AAEFC29FDCABA2C8" : {
+        "type" : "texture",
+        "index" : 0,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/FAA08022-B38D-4CC0-A790-BADB53A50C5C.pdf"
+        },
+        "width" : 1920,
+        "height" : 1080
+      },
       "D361C81F3292311CF0BAD2E4D107DC9F" : {
         "type" : "texture",
         "index" : 1,
@@ -15,20 +29,6 @@ local_slide( {
         },
         "width" : 1040,
         "height" : 134
-      },
-      "5BA6DF7ACEF516F7DAB78587CF30CE20" : {
-        "type" : "texture",
-        "index" : 0,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/FAA08022-B38D-4CC0-A790-BADB53A50C5C.pdf"
-        },
-        "width" : 1920,
-        "height" : 1080
       },
       "4BC642AABC57CB9A2C9EEE545BDD8069" : {
         "type" : "texture",
@@ -605,7 +605,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "5BA6DF7ACEF516F7DAB78587CF30CE20"
+                      "texture" : "3D34701509503107AAEFC29FDCABA2C8"
                     }
                   ]
                 }
