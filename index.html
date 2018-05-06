@@ -1,0 +1,710 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>The Cube Rule</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .hn-bold {
+        font-family: "HelveticaNeueBold",
+          "HelveticaNeue-Bold",
+          "Helvetica Neue Bold",
+          "HelveticaNeue",
+          "Helvetica Neue",
+          "TeXGyreHerosBold",
+          "Helvetica",
+          "Tahoma",
+          "Geneva",
+          "Arial",
+          sans-serif;
+        font-weight: 600;
+        font-stretch: normal;
+      }
+
+      .hn-medium {
+        font-family: "HelveticaNeueMedium",
+          "HelveticaNeue-Medium",
+          "Helvetica Neue Medium",
+          "HelveticaNeue",
+          "Helvetica Neue",
+          "TeXGyreHerosRegular",
+          "Helvetica",
+          "Tahoma",
+          "Geneva",
+          "Arial",
+          sans-serif;
+        font-weight: 500;
+        font-stretch: normal;
+      }
+
+      .hn-regular {
+        font-family: "HelveticaNeue",
+          "Helvetica Neue",
+          "HelveticaNeueRoman",
+          "HelveticaNeue-Roman",
+          "Helvetica Neue Roman",
+          "TeXGyreHerosRegular",
+          "Helvetica",
+          "Tahoma",
+          "Geneva",
+          "Arial",
+          sans-serif;
+        font-weight: 400;
+        font-stretch: normal;
+      }
+
+      .hn-ultralight {
+        font-family: "HelveticaNeueUltraLight",
+          "HelveticaNeue-UltraLight",
+          "Helvetica Neue UltraLight",
+          "HelveticaNeue",
+          "Helvetica Neue",
+          "TeXGyreHerosRegular",
+          "Arial",
+          sans-serif;
+        font-weight: 100;
+        font-stretch: normal;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "HelveticaNeueMedium",
+          "HelveticaNeue-Medium",
+          "Helvetica Neue Medium",
+          "HelveticaNeue",
+          "Helvetica Neue",
+          'TeXGyreHerosRegular',
+          "Helvetica",
+          "Tahoma",
+          "Geneva",
+          "Arial",
+          sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+
+      a:hover {
+        border-bottom: 2px solid;
+      }
+
+      .f10 {
+        font-size: 10vw;
+      }
+
+      .f7 {
+        font-size: 7vw;
+      }
+
+      .f6 {
+        font-size: 6vw;
+      }
+
+      .f5 {
+        font-size: 5.5vw;
+      }
+
+      .f4 {
+        font-size: 4vw;
+      }
+
+      .f3 {
+        font-size: 3vw;
+      }
+
+      .f2 {
+        font-size: 2vw;
+      }
+
+      .f1 {
+        font-size: 1.5vw;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 60vw;
+        border-bottom: 5px solid #333;
+      }
+
+      .slide:last-of-type {
+        border: none;
+      }
+
+      .examples {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 5vw;
+      }
+
+      .examples > .example {
+        margin: 0 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+
+      .examples > .example > img {
+        max-width: 24vw;
+        max-height: 24vw;
+      }
+
+      .s1 {
+        height: 54vw;
+      }
+
+      .s2 {
+        max-height: 40vw;
+        margin-top: 4vh;
+      }
+
+      .s3 {
+        max-width: 90vw;
+        max-height: 27vw;
+      }
+
+      .bg-e0 {
+        background-color: #E0E0E0;
+        border-bottom: 5px solid #CCC;
+      }
+
+      .bg-e5 {
+        background-color: #E5E5E5;
+        border-bottom: 5px solid #CCC;
+      }
+
+      .bg-white {
+        background-color: #FFFFFF;
+        color: #000000;
+        border-bottom: 5px solid #CCC;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f10 hn-medium">The Cube Rule</p>
+        <p class="f7 hn-regular">of Food Identification</p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">first, we asked:</p>
+        <p class="f7 hn-medium">&nbsp;</p>
+        <p class="f6 hn-medium">are hot dogs sandwiches?</p>
+      </section>
+    </div>
+
+    <div class="slide bg-e0">
+      <section class="slide-content">
+        <a href="https://imgur.com/a/R2Hru">
+          <img class="s1" src="assets/03_hotdog.jpg" alt="Classic Sandwiches">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">New York said yes.</p>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <img class="s3" src="assets/05_ny_top.jpg" alt="This bulletin explains what is a sandwich">
+        <img class="s3" src="assets/05_ny_bottom.jpg" alt="hot dogs and sausages on buns, rolls, etc.">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-medium">then,</p>
+        <a href="https://twitter.com/kadybat/status/883516550216507392">
+          <img class="s2" src="assets/06_ravioli.jpg" alt="pop tarts are a kind of ravioli.">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-medium">the wars began</p>
+        <a href="https://twitter.com/PopTartsUS/status/884433411095613441">
+          <img class="s2" src="assets/07_poptart.jpg" alt="excuse me, ravioli are a kind of pop-tart">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">The Sandwich<br>Alignment Chart</p>
+        <p class="f5 hn-medium">&nbsp;</p>
+        <p class="f5 hn-medium">tried to bring order</p>
+      </section>
+    </div>
+
+    <div class="slide bg-e5">
+      <section class="slide-content">
+        <a href="https://twitter.com/matttomic/status/859117370455060481">
+          <img class="s1" src="assets/09_sandwich.jpg" alt="The Sandwich Alignment Chart">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">but only chaos ensued</p>
+        <a href="https://twitter.com/matttomic/status/859453832224542720">
+          <img class="s2" src="assets/10_chaos.gif" alt="my wife left me because I think a burrito is a sandwich">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">then spake</p>
+        <p class="f5 hn-medium">the holy prophet</p>
+        <p class="f5 hn-medium">@Phosphatide</p>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <a href="https://twitter.com/Phosphatide/status/974067376894328833">
+          <img class="s3" src="assets/12_unsatisfied.jpg" alt="are you unsatisfied with current debates regarding what is or is not a sandwich?">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">blessing us with</p>
+        <p class="f5 hn-medium">the grand unified theory</p>
+        <p class="f5 hn-medium">of food identification</p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">The Cube Rule</p>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <a href="https://twitter.com/Phosphatide/status/974067376894328833">
+          <img class="s1" src="assets/15_cube_rule.jpg" alt="The Cube Rule of Food for identifying dishes based on starch locations">
+        </a>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">① Toast</p>
+        <img class="s2" src="assets/16_toast.jpg" alt="cube with bottom face solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ① Toast
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/16_toast.jpg" alt="cube with bottom face solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/17_pizza.jpg" alt="a pizza">
+            <p class="f3 hn-ultralight">pizza</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/17_nigiri.jpg" alt="a piece of nigiri sushi">
+            <p class="f3 hn-ultralight">nigiri sushi</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/17_pumpkin_pie_slice.jpg" alt="a slice of pumpkin pie">
+            <p class="f3 hn-ultralight">pumpkin pie slice</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">② Sandwich</p>
+        <img class="s2" src="assets/18_sandwich.jpg" alt="cube with bottom and top face solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ② Sandwich
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/18_sandwich.jpg" alt="cube with bottom and top face solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/19_lasagna.jpg" alt="a piece of lasagna">
+            <p class="f3 hn-ultralight">lasagna</p>
+            <p class="f2 hn-ultralight">(multi-decker)</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/19_toast.jpg" alt="a toast sandwich">
+            <p class="f3 hn-ultralight">toast</p>
+            <p class="f1 hn-ultralight" style="margin-bottom: -1em;">
+              (made and photographed<br>
+              by me, Ryan. it was okay)
+            </p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/19_quesadilla.jpg" alt="pieces of a quesadilla made from two whole tortillas">
+            <p class="f3 hn-ultralight">quesadilla</p>
+            <p class="f2 hn-ultralight">(non-folded)</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">③ Taco</p>
+        <img class="s2" src="assets/20_taco.jpg" alt="cube with bottom and two sides solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ③ Taco
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/20_taco.jpg" alt="cube with bottom and two sides solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/20_hotdog.jpg" alt="a hot dog">
+            <p class="f3 hn-ultralight">hot dog</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/20_sub.jpg" alt="a sub-style sandwich">
+            <p class="f3 hn-ultralight">sub sandwich</p>
+            <p class="f2 hn-ultralight">(uncut)</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/20_pie_slice.jpg" alt="a slice of cherry pie">
+            <p class="f3 hn-ultralight">slice of pie</p>
+            <p class="f2 hn-ultralight">(taco on its side)</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">④ Sushi</p>
+        <img class="s2" src="assets/21_sushi.jpg" alt="cube with bottom, top, and two sides solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ④ Sushi
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/21_sushi.jpg" alt="cube with bottom, top, and two sides solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/22_falafel.jpg" alt="a falafel wrap">
+            <p class="f3 hn-ultralight">falafel wrap</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/22_pigs.jpg" alt="two pigs in blankets">
+            <p class="f3 hn-ultralight">pigs in a blanket</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/22_enchilada.jpg" alt="an enchilada">
+            <p class="f3 hn-ultralight">enchilada</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">⑤ Quiche</p>
+        <img class="s2" src="assets/23_quiche.jpg" alt="cube with bottom and all four sides solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⑤ Quiche
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/23_quiche.jpg" alt="cube with bottom and all four sides solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/24_cheesecake.jpg" alt="a hot dog">
+            <p class="f3 hn-ultralight">cheesecake</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/24_soup_bread_bowl.jpg" alt="a sub-style sandwich">
+            <p class="f3 hn-ultralight">soup</p>
+            <p class="f2 hn-ultralight">(in a bread bowl)</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/24_falafel_pita.jpg" alt="a slice of cherry pie">
+            <p class="f3 hn-ultralight">falafel pita</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⑤ Quiche
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/23_quiche.jpg" alt="cube with bottom and all four sides solid">
+        </p>
+        <p class="f3 hn-ultralight">bonus round</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/25_deep_dish.jpg" alt="a hot dog">
+            <p class="f3 hn-ultralight">deep-dish pizza</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/25_salad_bread_bowl.jpg" alt="a sub-style sandwich">
+            <p class="f3 hn-ultralight">salad</p>
+            <p class="f2 hn-ultralight">(in a bread bowl)</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/25_key_lime_pie.jpg" alt="a slice of cherry pie">
+            <p class="f3 hn-ultralight">key lime pie</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">⑥ Calzone</p>
+        <img class="s2" src="assets/26_calzone.jpg" alt="cube with all six sides solid">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⑥ Calzone
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/26_calzone.jpg" alt="cube with all six sides solid">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/27_burrito.jpg" alt="a hot dog">
+            <p class="f3 hn-ultralight">burrito</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/27_corndog.jpg" alt="a sub-style sandwich">
+            <p class="f3 hn-ultralight">corn dog</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/27_pie.jpg" alt="a slice of cherry pie">
+            <p class="f3 hn-ultralight">pie</p>
+            <p class="f2 hn-ultralight">(whole)</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⑥ Calzone
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/26_calzone.jpg" alt="cube with all six sides solid">
+        </p>
+        <p class="f3 hn-ultralight">bonus round</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/28_dumplings.jpg" alt="dim sum dumplings">
+            <p class="f3 hn-ultralight">dumplings</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/28_poptart.jpg" alt="a frosted strawberry pop-tart">
+            <p class="f3 hn-ultralight">pop-tarts</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/28_uncrustable.jpg" alt="a smuckers uncrustable, with one bite taken out">
+            <p class="f3 hn-ultralight">uncrustables</p>
+            <p class="f2 hn-ultralight">(unbitten)</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">Additional Cube Rulings</p>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">⓪ Salad</p>
+        <img class="s2" src="assets/30_salad.jpg" alt="cube with all six sides empty">
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⓪ Salad
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/30_salad.jpg" alt="cube with all six sides empty">
+        </p>
+        <p class="f3 hn-ultralight">popular examples</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/31_steak.jpg" alt="a grilled steak">
+            <p class="f3 hn-ultralight">steak</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/31_mashed_potatoes.jpg" alt="mashed potatoes">
+            <p class="f3 hn-ultralight">mashed potatoes</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/31_fried_rice.jpg" alt="fried rice">
+            <p class="f3 hn-ultralight">fried rice</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide bg-white">
+      <section class="slide-content">
+        <p class="f5 hn-bold">
+          ⓪ Salad
+          <img style="max-height: 1.2em; margin-bottom: -0.2em;" src="assets/30_salad.jpg" alt="cube with all six sides empty">
+        </p>
+        <p class="f3 hn-ultralight">bonus round</p>
+        <section class="examples">
+          <section class="example">
+            <img class="s3" src="assets/32_spaghetti.jpg" alt="a bowl of spaghetti with tomato sauce">
+            <p class="f3 hn-ultralight">spaghetti</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/32_poutine.jpg" alt="a dish of poutine">
+            <p class="f3 hn-ultralight">poutine</p>
+            <p class="f2 hn-ultralight">&nbsp;</p>
+          </section>
+          <section class="example">
+            <img class="s3" src="assets/32_soup.jpg" alt="a bowl of tomato soup">
+            <p class="f3 hn-ultralight">soup</p>
+            <p class="f2 hn-ultralight">(a wet salad)</p>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f5 hn-medium">Muffins</p>
+        <p class="f3 hn-ultralight">or other blocks of starch</p>
+        <p class="f5 hn-medium"><br>are type ①, toast</p>
+        <p class="f3 hn-ultralight">(in raw, unsliced form)</p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">Rice<br><br></p>
+        <p class="f4 hn-medium">You are free to interpret the<br>nature of rice however you wish.</p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">Vanilla Soy Latte<br><br></p>
+        <p class="f5 hn-medium">
+          <a href="https://www.reddit.com/r/Showerthoughts/comments/6obtp6/a_vanilla_soy_latte_is_a_type_of_3bean_soup/">
+            A three-bean soup.
+          </a>
+        </p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">Thank you.</p>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f7 hn-medium">References<br><br></p>
+        <section class="references" style="text-align: left; width: 75vw;">
+          <ul>
+            <li class="f2 hn-regular">
+              <a href="https://twitter.com/kadybat/status/883516550216507392">
+                https://twitter.com/kadybat/status/883516550216507392
+              </a><br><br>
+            </li>
+            <li class="f2 hn-regular">
+              <a href="https://twitter.com/matttomic/status/859117370455060481">
+                https://twitter.com/matttomic/status/859117370455060481
+              </a><br><br>
+            </li>
+            <li class="f2 hn-regular">
+              <a href="https://twitter.com/Phosphatide/status/974067376894328833">
+                https://twitter.com/Phosphatide/status/974067376894328833
+              </a><br><br>
+            </li>
+            <li class="f2 hn-regular">
+              <a href="https://www.reddit.com/r/Showerthoughts/comments/6obtp6/">
+                https://www.reddit.com/r/Showerthoughts/comments/6obtp6
+              </a><br><br>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </div>
+
+    <div class="slide">
+      <section class="slide-content">
+        <p class="f4 hn-medium">made with 💖 by
+          <a href="https://twitter.com/indirect">
+            @indirect
+          </a>
+        </p>
+      </section>
+    </div>
+
+  </body>
+</html>
